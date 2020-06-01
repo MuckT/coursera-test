@@ -16,8 +16,8 @@ h2 {
   margin: 0;
   text-align: center;
   font-size: 125%;
-  border-bottom: 2px solid black;
-  border-left: 2px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
 }
 
 p {
@@ -28,7 +28,7 @@ section {
   margin-top: 15px;
   overflow: auto;
   background-color: #f1faee;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 #beef h2 {
@@ -50,7 +50,7 @@ section {
 }
   
 /********** Large devices only **********/
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
     padding: 15px;
@@ -94,13 +94,13 @@ section {
   }
 
   section {
-    min-height: 220px;
+    min-height: 260px;
     margin-top: 0;
   }
 }
   
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
     padding: 15px;
@@ -145,7 +145,7 @@ section {
   }
 
   section {
-    min-height: 180px;
+    min-height: 200px;
     margin-top: 0;
   }
 }
