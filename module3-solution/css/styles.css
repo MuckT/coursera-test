@@ -1,0 +1,96 @@
+/** BODY **/
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #edf2f4;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** END BODY **/
+
+/** HEADER **/
+hr {
+  margin: 0 0 0 0;
+}
+
+#header-nav {
+  background-color: #ff6b6b;
+}
+  
+.navbar-brand h1 { 
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 1em;
+  line-height: .75;
+  color: #edf2f4;
+} 
+
+.navbar-toggle {
+  margin-right: 40px;
+  background-color: #edf2f4;
+}
+
+.nav > li > a {
+  text-align: center;
+  color: #edf2f4 !important;
+}
+
+
+.nav > li > a:hover {
+  color: #ff6b6b !important;
+  background-color: #edf2f4 !important;
+}
+
+/* END HEADER */
+
+/* MAIN CONTENT */
+h1 {
+  margin-bottom: 15px;
+  color: #ff6b6b; 
+}
+
+section * {
+  color: #042f66; 
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 125%;
+  color: black;
+}
+
+p {
+  clear: both;
+}
+
+section {
+  margin: 0 0 15px 0;
+  overflow: auto;
+  background-color: #cce7e8;
+  border: 1px solid black;
+}
+
+/* END MAIN CONTENT */
+
+/* MEDIA QUERIES  */
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #beef, #chicken {
+    min-height: 620px;
+  }
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  section {
+    min-height: 775px;
+  }
+}
+
+/* END MEDIA QUERIES  */
