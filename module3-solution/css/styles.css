@@ -16,6 +16,11 @@ hr {
 #header-nav {
   background-color: #ff6b6b;
 }
+
+.navbar-nav {
+  margin: 0 -15px;
+}
+
   
 #header-nav h1 { 
   font-family: "Comic Sans MS", cursive, sans-serif;
