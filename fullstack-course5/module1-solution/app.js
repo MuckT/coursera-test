@@ -8,7 +8,7 @@ angular.module('LunchCheck', [])
 LunchCheckController.$inject = ['$scope'];
 function LunchCheckController($scope) {
     $scope.lunchCheck = function () {
-        if ($scope.lunch === undefined) {
+        if ($scope.lunch === "" || $scope.lunch === undefined) {
             $scope.lunchReturn = "Please enter data first"
         } else {
             let lunchArray = $scope.lunch.split(",");
