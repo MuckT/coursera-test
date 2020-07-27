@@ -8,11 +8,15 @@ angular.module('LunchCheck', [])
 LunchCheckController.$inject = ['$scope'];
 function LunchCheckController($scope) {
     $scope.lunchCheck = function () {
-        let lunchArray = $scope.lunch.split(",");
-        if (lunchArray.length <= 3) {
-            $scope.lunchReturn = "Enjoy!"
+        if ($scope.lunch === undefined) {
+            $scope.lunchReturn = "Please enter data first"
         } else {
-            $scope.lunchReturn = "Too much!"
+            let lunchArray = $scope.lunch.split(",");
+            if (lunchArray.length <= 3) {
+                $scope.lunchReturn = "Enjoy!"
+            } else {
+                $scope.lunchReturn = "Too much!"
+            }
         }
     }
 }
